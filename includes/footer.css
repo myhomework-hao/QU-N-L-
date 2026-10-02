@@ -1,4 +1,59 @@
 /* =========================
+   FOOTER
+========================= */
+
+footer {
+    min-height: 100px;
+
+    padding: 30px 8%;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    font-size: 18px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+}
+
+.footer-logo span {
+    font-weight: 400;
+}
+
+footer p {
+    font-size: 10px;
+
+    color: #888888;
+}
+
+footer a {
+    font-size: 10px;
+
+    letter-spacing: 1px;
+
+    font-weight: 600;
+}
+
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 900px) {
+
+    footer {
+        flex-direction: column;
+
+        gap: 20px;
+
+        text-align: center;
+    }
+}
+
+/* =========================
    BASE — dùng cho mọi trang
 ========================= */
 

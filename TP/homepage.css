@@ -1,105 +1,8 @@
 /* =========================
-   RESET
+   TRANG CHỦ (index.html)
 ========================= */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: "Montserrat", sans-serif;
-    background: #ffffff;
-    color: #111111;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-img {
-    width: 100%;
-    display: block;
-}
-
-
-/* =========================
-   HEADER
-========================= */
-
-.header {
-    width: 100%;
-    height: 80px;
-
-    padding: 0 6%;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    border-bottom: 1px solid #dddddd;
-
-    position: sticky;
-    top: 0;
-
-    background: #ffffff;
-
-    z-index: 1000;
-}
-
-.logo {
-    font-size: 22px;
-    font-weight: 700;
-    letter-spacing: 2px;
-}
-
-.logo span {
-    font-weight: 400;
-}
-
-.navbar {
-    display: flex;
-    gap: 35px;
-}
-
-.navbar a {
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 1px;
-
-    transition: 0.3s;
-}
-
-.navbar a:hover {
-    opacity: 0.5;
-}
-
-.header-button {
-    border: 1px solid #111111;
-
-    padding: 12px 20px;
-
-    font-size: 10px;
-    font-weight: 600;
-
-    transition: 0.3s;
-}
-
-.header-button:hover {
-    background: #111111;
-    color: white;
-}
-
-
-/* =========================
-   HERO
-========================= */
+/* ---------- HERO ---------- */
 
 .hero {
     min-height: calc(100vh - 80px);
@@ -117,15 +20,6 @@ img {
     padding-left: 5%;
 }
 
-.small-title,
-.section-title {
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 3px;
-
-    margin-bottom: 25px;
-}
-
 .hero h1 {
     font-size: clamp(60px, 8vw, 125px);
 
@@ -134,12 +28,6 @@ img {
     font-weight: 600;
 
     letter-spacing: -5px;
-}
-
-.hero h1 i,
-h2 i {
-    font-family: "Playfair Display", serif;
-    font-weight: 500;
 }
 
 .hero-description {
@@ -152,26 +40,6 @@ h2 i {
     line-height: 1.8;
 
     color: #555555;
-}
-
-.main-button {
-    display: inline-block;
-
-    background: #111111;
-    color: #ffffff;
-
-    padding: 17px 28px;
-
-    font-size: 11px;
-    font-weight: 600;
-
-    letter-spacing: 1px;
-
-    transition: 0.3s;
-}
-
-.main-button:hover {
-    background: #333333;
 }
 
 .hero-image {
@@ -195,9 +63,7 @@ h2 i {
 }
 
 
-/* =========================
-   ABOUT
-========================= */
+/* ---------- ABOUT ---------- */
 
 .about {
     background: #111111;
@@ -212,8 +78,12 @@ h2 i {
     grid-template-columns: 20% 80%;
 }
 
-.about .section-number {
+.section-number {
     font-size: 12px;
+    color: #888888;
+}
+
+.about .section-number {
     color: #999999;
 }
 
@@ -252,9 +122,7 @@ h2 i {
 }
 
 
-/* =========================
-   SERVICES
-========================= */
+/* ---------- SERVICES ---------- */
 
 .services {
     padding: 120px 8%;
@@ -271,11 +139,6 @@ h2 i {
     font-size: clamp(45px, 6vw, 80px);
 
     line-height: 1;
-}
-
-.section-number {
-    font-size: 12px;
-    color: #888888;
 }
 
 .service-list {
@@ -322,9 +185,7 @@ h2 i {
 }
 
 
-/* =========================
-   GALLERY
-========================= */
+/* ---------- GALLERY ---------- */
 
 .gallery {
     padding: 120px 8%;
@@ -366,9 +227,7 @@ h2 i {
 }
 
 
-/* =========================
-   BOOKING
-========================= */
+/* ---------- BOOKING (khối kêu gọi đặt lịch) ---------- */
 
 .booking {
     background: #111111;
@@ -409,31 +268,8 @@ h2 i {
     margin-bottom: 40px;
 }
 
-.white-button {
-    display: inline-block;
 
-    background: white;
-    color: #111111;
-
-    padding: 18px 35px;
-
-    font-size: 11px;
-
-    font-weight: 600;
-
-    letter-spacing: 1px;
-
-    transition: 0.3s;
-}
-
-.white-button:hover {
-    background: #cccccc;
-}
-
-
-/* =========================
-   CONTACT
-========================= */
+/* ---------- CONTACT ---------- */
 
 .contact {
     padding: 120px 8%;
@@ -449,10 +285,6 @@ h2 i {
     font-size: clamp(60px, 8vw, 120px);
 
     line-height: 0.85;
-}
-
-.contact-left h2 i {
-    font-family: "Playfair Display", serif;
 }
 
 .contact-right {
@@ -498,61 +330,9 @@ h2 i {
 }
 
 
-/* =========================
-   FOOTER
-========================= */
-
-footer {
-    min-height: 100px;
-
-    padding: 30px 8%;
-
-    display: flex;
-
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer-logo {
-    font-size: 18px;
-
-    font-weight: 700;
-
-    letter-spacing: 2px;
-}
-
-.footer-logo span {
-    font-weight: 400;
-}
-
-footer p {
-    font-size: 10px;
-
-    color: #888888;
-}
-
-footer a {
-    font-size: 10px;
-
-    letter-spacing: 1px;
-
-    font-weight: 600;
-}
-
-
-/* =========================
-   RESPONSIVE
-========================= */
+/* ---------- Responsive ---------- */
 
 @media (max-width: 900px) {
-
-    .navbar {
-        display: none;
-    }
-
-    .header {
-        padding: 0 5%;
-    }
 
     .hero {
         grid-template-columns: 1fr;
@@ -602,34 +382,9 @@ footer a {
 
         padding: 80px 8%;
     }
-
-    footer {
-        flex-direction: column;
-
-        gap: 20px;
-
-        text-align: center;
-    }
 }
 
-
-/* =========================
-   MOBILE
-========================= */
-
 @media (max-width: 600px) {
-
-    .header {
-        height: 70px;
-    }
-
-    .logo {
-        font-size: 18px;
-    }
-
-    .header-button {
-        padding: 10px 14px;
-    }
 
     .hero {
         padding-top: 40px;
