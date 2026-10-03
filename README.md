@@ -1,9 +1,5 @@
 # 🎬 HỆ THỐNG QUẢN LÝ STUDIO (STUDIO MANAGEMENT SYSTEM)
 
-> **Công nghệ sử dụng:** PHP (Xử lý máy chủ & Giao diện) + MySQL (XAMPP / phpMyAdmin) + HTML/CSS/JavaScript.
-
----
-
 ## 👥 PHÂN CÔNG NHIỆM VỤ & QUẢN LÝ THƯ MỤC CÁ NHÂN
 
 > 📌 **QUY TẮC CẤU TRÚC THƯ MỤC CÁ NHÂN:**
